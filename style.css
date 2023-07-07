@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pagina {
+    width: 1000px;
+    margin: auto;
+    
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    margin: 0;
+}
+
+#logo img {
+    height: 200px;
+}
+
+#logo {
+    float: left;
+}
+
+#banner img{
+    height: 200px;
+    float: right;
+    width: 100%;
+}
+
+#banner {
+    float: right;
+    width: 79.4%;
+}
+
+nav {
+    width: 205px;
+    float: left;
+    margin-left:-20.6%;
+    height: 100vh;
+}
+
+nav ul, aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+#selecionado {
+    background-color: gray;
+    color: white;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+nav li, aside li {
+    padding: 10px;
+}
+
+nav a, aside a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 550px;
+    float: left; 
+    display: inline;
+    padding: 10px;
+}
+
+main #img-i {
+    width: 200px;
+    float: right;
+}
+
+section p {
+    text-align: justify;
+}
+
+#para {
+    margin-right: 215px;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+}
+
+aside {
+    padding: 15px;
+    float: left;
+    height: 110vh;
+}
+
+footer {
+    float: right;
+}
+
+footer img {
+    width: 30px;
+}
+
+section .masc {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.masc img {
+    height: 200px;
+    width: 200px;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+#nome, #tel, #email {
+    border-radius: 100px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.bu {
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    padding: 7px;
+    width: 85px;
+}
